@@ -3,13 +3,13 @@
 
 ## Requirements:
 
-This project uses Python 3.11
+This project uses Python 3.8
 
 Create a virtual env with the following command:
 
 ```
-conda create --name mlops python=3.11
-conda activate mlops
+conda create --name project-setup python=3.8
+conda activate project-setup
 ```
 
 Install the requirements:
@@ -46,6 +46,8 @@ To make sure to use the virutalenv, run the following commands before running `j
 
 ```
 conda install ipykernel
-python -m ipykernel install --user --name mlops
+python -m ipykernel install --user --name project-setup
 pip install ipywidgets
 ```
+
+

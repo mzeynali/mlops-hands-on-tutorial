@@ -1,0 +1,8 @@
+pytorch-lightning
+datasets
+transformers
+scikit-learn
+wandb
+torchmetrics
+matplotlib
+seaborn
