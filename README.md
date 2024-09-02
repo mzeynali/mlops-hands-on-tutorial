@@ -31,3 +31,31 @@ Following tech stack is used:
 - [Huggingface Datasets](https://github.com/huggingface/datasets)
 - [Huggingface Transformers](https://github.com/huggingface/transformers)
 - [Pytorch Lightning](https://pytorch-lightning.readthedocs.io/)
+
+## Week 1: Model monitoring - Weights and Biases
+
+<img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=difficulty&message=easy&color=green"/>
+
+Refer to the [Blog Post here](https://medium.com/@mzeynali01/enhancing-your-pytorch-lightning-workflow-with-weights-biases-0e78f58ab16b)
+
+Tracking all the experiments like tweaking hyper-parameters, trying different models to test their performance and seeing the connection between model and the input data will help in developing a better model.
+
+The scope of this week is to understand the following topics:
+
+- `How to configure basic logging with W&B?`
+- `How to compute metrics and log them in W&B?`
+- `How to add plots in W&B?`
+- `How to add data samples to W&B?`
+
+![wannb](images/wandb.png)
+
+Following tech stack is used:
+
+- [Weights and Biases](https://wandb.ai/site)
+- [torchmetrics](https://torchmetrics.readthedocs.io/)
+
+References:
+
+- [Tutorial on Pytorch Lightning + Weights & Bias](https://www.youtube.com/watch?v=hUXQm46TAKc)
+
+- [WandB Documentation](https://docs.wandb.ai/)
