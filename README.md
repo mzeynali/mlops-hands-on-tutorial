@@ -47,7 +47,7 @@ The scope of this week is to understand the following topics:
 - `How to add plots in W&B?`
 - `How to add data samples to W&B?`
 
-![wannb](images/wandb.png)
+![wannb](images/wandb.webp)
 
 Following tech stack is used:
 
