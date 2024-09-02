@@ -9,7 +9,7 @@ The goal of the series is to understand the basics of MLOps like model building,
 
 ![pl](images/summary.jpg)
 
-## Week 0: Project Setup
+## Week 0: Project Setup and Train Model
 
 <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=difficulty&message=easy&color=green"/>
 
