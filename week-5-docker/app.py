@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from inference_onnx import ColaONNXPredictor
-app = FastAPI(title="MLOps Basics App")
+app = FastAPI(title="MLOps Hands On Tutorial")
 
 predictor = ColaONNXPredictor("./models/model.onnx")
 
