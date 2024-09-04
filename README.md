@@ -120,7 +120,7 @@ References
 
 <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=difficulty&message=medium&color=orange"/>
 
-Refer to the [Blog Post here](https://www.ravirajag.dev/blog/mlops-onnx)
+Refer to the [Blog Post here](https://medium.com/@mzeynali01/converting-and-running-machine-learning-models-with-onnx-141ef66d527b)
 
 Why do we need model packaging? Models can be built using any machine learning framework available out there (sklearn, tensorflow, pytorch, etc.). We might want to deploy models in different environments like (mobile, web, raspberry pi) or want to run in a different framework (trained in pytorch, inference in tensorflow).
 A common file format to enable AI developers to use models with a variety of frameworks, tools, runtimes, and compilers will help a lot.
