@@ -1,0 +1,13 @@
+pytorch-lightning
+datasets
+transformers
+scikit-learn
+wandb
+torchmetrics
+matplotlib
+seaborn
+hydra-core
+omegaconf
+hydra_colorlog
+fastapi
+uvicorn
