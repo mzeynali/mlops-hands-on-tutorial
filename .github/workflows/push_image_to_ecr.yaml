@@ -1,0 +1,30 @@
+name: Deploy to AWS Lambda
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: ./week-7-ecr
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Push2ECR
+      id: ecr
+      uses: jwalton/gh-ecr-push@v1
+      with:
+        access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        region: us-west-2
+        image: mlops-hands-on-toturial:latest
+
+    - name: Update lambda with image
+      run: aws lambda update-function-code --function-name  MLOps-Hands-On-Toturial --image-uri 246113150184.dkr.ecr.us-west-2.amazonaws.com/mlops-hands-on-toturial:latest
