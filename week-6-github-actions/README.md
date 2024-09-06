@@ -117,6 +117,6 @@ To make sure to use the virutalenv, run the following commands before running `j
 
 ```
 conda install ipykernel
-python -m ipykernel install --user --name project-setup
+python -m ipykernel install --user --name mlops
 pip install ipywidgets
 ```
