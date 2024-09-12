@@ -1,0 +1,12 @@
+pytorch-lightning
+datasets
+scikit-learn
+hydra-core
+omegaconf
+hydra_colorlog
+onnxruntime
+fastapi
+uvicorn
+dvc
+tokenizers
+transformers
